@@ -35,10 +35,10 @@ export const  Login = () => {
                  />
                  <span className="focus-input" data-placeholder="Passoword"></span>
              </div>
-
-             <div className='container-login-form-btn'>
+             <Link className="txt2 " to="/inicio">Logar</Link>
+             {/* <div className='container-login-form-btn'>
                <button className='login-form-btn'>Login</button>
-             </div>
+             </div> */}
 
              <div className='text-center'>
                  <span className='txt1'>Não possui conta?</span>
